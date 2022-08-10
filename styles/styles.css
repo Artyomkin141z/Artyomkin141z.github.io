@@ -1,0 +1,161 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body {
+        background-color: #FAFAFA;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #C4C4C4;
+        margin-bottom: 30px;
+    }
+    
+    .container {
+        width: 672px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+    
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .icons {
+        width: 210px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .stories {
+        padding: 24px 30px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .border__post {
+        border: 1px solid #C4C4C4;
+        margin-bottom: 30px;
+    }
+    
+    .story {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .story__img {
+        margin-bottom: 12px;
+        border-radius: 50%;
+        border: 2px solid #FFFFFF;
+        z-index: 1;
+        width: 76px;
+        height: 76px;
+        transform: translate(0px, 2px);
+    }
+    
+    .gradient {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(45deg, #EBAF4D, #D60A66);
+        position: absolute;
+        z-index: 0;
+        border-radius: 50%;
+    }
+    
+    .live__icon {
+        width: 26px;
+        height: 14px;
+        background: linear-gradient(45deg, #EBAF4D, #D60A66 60%);
+        font-size: 8px;
+        font-weight: 700;
+        border: 2px solid #FFFFFF;
+        border-radius: 4px;
+        box-sizing: unset;
+        position: absolute;
+        z-index: 2;
+        transform: translate(0, 68px);
+    }
+    
+    .live__icon__text {
+        color: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .post {
+        background-color: #FFFFFF;
+    }
+    
+    .post__image {
+        height: 639px;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    
+    .post__header {
+        width: 60px;
+        display: flex;
+    }
+    
+    .user__icon {
+        margin: 12px 24px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .user__name {
+        display: flex;
+        align-items: center;
+        margin-right: 16px;
+        font-weight: 700;
+    }
+    
+    .like__footer {
+        display: flex;
+    }
+    
+    .like {
+        margin: 24px 16px 16px 24px;
+        width: 30px;
+        height: 30px;
+        background-image: url("https://res.cloudinary.com/intellectfox/image/upload/v1629752957/fe/foxgram/posts/like_xw2apm.svg");
+        background-size: 30px 30px;
+    }
+    
+    .like__filled {
+        background-image: url("https://res.cloudinary.com/intellectfox/image/upload/v1629752958/fe/foxgram/posts/like-filled_zurlii.svg");
+    }
+    
+    .like__text {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        height: 30px;
+        margin-top: 24px;
+    }
+    
+    .description {
+        display: flex;
+        margin: 0px 24px 24px 24px;
+    }
+    
+    .text__plane {
+        font-weight: 400;
+    }
+    
+    .text__size14 {
+        font-size: 14px;
+    }
