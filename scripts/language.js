@@ -38,7 +38,6 @@ function changeLanguage(){
         for(let n = 0; n < selectors.length; n++){
             selectors[n].innerHTML = language[i][hash];
         }
-        console.log(selectors);
     }
 }
 
