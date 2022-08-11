@@ -10,20 +10,22 @@
 </head>
 
 <body>
-    <div class="header block">
-       <div class="text text__bold text__shadow">Home</div>
-       <div class="text">Obout me</div>
-       <div class="text">Scills</div>
-       <div class="text">Portfolio</div>
-       <div class="text">Contacts</div>
+    <div id="header">
+        <div class="block">
+           <div class="text text__bold text__shadow lng-home">Home</div>
+           <div class="text lng-aboutMe">About me</div>
+           <div class="text lng-scills">Scills</div>
+           <div class="text lng-portfolio">Portfolio</div>
+           <div class="text lng-contacts">Contacts</div>
+        </div>
     </div>
 
-    <div class="home block">
+    <div class="block" id="home">
         <div class="home__text">
-            <p class="text text__bold home__text__name">
+            <p class="text text__bold home__text__name lng-name">
                 Artyom Gilimovich
             </p>
-            <p class="text home__text__job">
+            <p class="text home__text__job lng-job">
                 Front-end developer<br>
                 19 years old, Minsk
             </p>
@@ -35,25 +37,75 @@
         <img class="avatar" src="./components/avatar.png"/>
     </div>
 
-    <div class="about-me">
+    <div class="gray-background" id="about-me">
         <div class="block">
             <div class="about-me__text">
-                <h1>About me</h1>
-                <p class="text">
-                    Hhi, I'm Denis – UX/UI designer from Minsk. 
+                <h1 class="lng-aboutMe">About me</h1>
+                <p class="text lng-aboutMeContent">
+                    Hi, I'm Denis – UX/UI designer from Minsk. 
                     I'm interested in design and everything connected with it.
                     <br><br>
                     I'm studying at courses "Web and mobile design 
                     interfaces" in IT-Academy.
                     <br><br>
                     Ready to implement excellent projects
-                     with wonderful people.
+                    with wonderful people.
                 </p>
             </div>
         </div>
     </div>
 
-    <script src="./scripts/main.js "></script>
+    <div class="block" id="scills">
+        <h1 class="lng-scills">Scills</h1>
+        <div class="scills-block">
+            <div class="scill">
+                <img src="./components/JS-logo.png">
+                <p>JavaScript</p>
+            </div>
+            <div class="scill">
+                <img src="./components/React-logo.png">
+                <p>React.js</p>
+            </div>
+            <div class="scill">
+                <img src="./components/HTML-logo.png">
+                <p>HTML5</p>
+            </div>
+            <div class="scill">
+                <img src="./components/CSS-logo.png">
+                <p>CSS3</p>
+            </div>
+            <div class="scill">
+                <img src="./components/Git-logo.png">
+                <p>GitBash</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="gray-background">
+        <div class="block" id="portfolio">
+            <h1 class="lng-portfolio">Portfolio</h1>
+            <div class="projects">
+                Здесь будет портфолио
+            </div>
+        </div>
+    </div>
+
+    <div class="block" id="contacts">
+        <h1 class="lng-contacts">Contacts</h1>
+        <p class="lng-contactsContent">
+            Want to know more or just chat? 
+            You are welcome!
+        </p>
+        <div class="media">
+            <img src="./components/telegram.png">
+            <img src="./components/linkedin.png">
+            <img src="./components/instagram.png">
+            <img src="./components/github.png">
+        </div>
+    </div>
+
+    <script src="./scripts/lngTranslate.js"></script>
+    <script src="./scripts/language.js"></script>  
 </body>
 
 </html>

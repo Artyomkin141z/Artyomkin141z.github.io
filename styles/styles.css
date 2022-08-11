@@ -1,24 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&family=Trispace:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0px 0px;
     font-family: 'Roboto', sans-serif;  
 }
 
-body{
-    
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0px;
-    border-bottom: 1px solid #828282;
-}
-
 .block{
     max-width: 940px;
-    margin: 0px 5px;
+    margin: 0px auto;
+    padding: 0 5px;
+}
+
+#header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#header .block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #828282;
+    
+    margin: 0 auto;
 }
 
 .text{
@@ -33,11 +42,12 @@ body{
 }
 
 .text__shadow{
-    text-shadow: 2px 2px 4px #828282;
+    text-shadow: 3px 3px 5px #8282829f;
 }
 
-.home{
+#home{
     margin-bottom: 50px;
+    margin-top: 135px;
 }
 
 .home__text{
@@ -84,7 +94,7 @@ body{
     width: 100%;
 }
 
-.about-me{
+.gray-background{
     background-color: #F6F6F6;
 }
 
@@ -98,4 +108,49 @@ body{
 
 .about-me__text h1{
     margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.scills-block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.scill img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 15px auto;
+}
+
+.scill p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#portfolio, #contacts, #scills{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contacts p{
+    width: 275px;
+    margin: 0 auto 30px;
+}
+
+.media img{
+    width: 40px;
+}
+
+.media{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 30px;
 }
