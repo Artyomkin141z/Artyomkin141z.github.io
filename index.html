@@ -12,15 +12,15 @@
 <body>
     <div id="header">
         <div class="block">
-           <a href="#home" class="click__buttom text text__active text__shadow lng-home">Home</a>
-           <a href="#about-me" class="click__buttom text lng-aboutMe" >About me</a>
-           <a href="#scills" class="click__buttom text lng-scills">Scills</a>
-           <a href="#portfolio" class="click__buttom text lng-portfolio">Portfolio</a>
-           <a href="#contacts" class="click__buttom text lng-contacts">Contacts</a>
+           <a href="#home" id="home-head" class="click__buttom text text__active lng-home">Home</a>
+           <a href="#about-me" id="about-me-head" class="click__buttom text lng-aboutMe" >About me</a>
+           <a href="#scills" id="scills-head" class="click__buttom text lng-scills">Scills</a>
+           <a href="#portfolio" id="portfolio-head" class="click__buttom text lng-portfolio">Portfolio</a>
+           <a href="#contacts" id="contacts-head" class="click__buttom text lng-contacts">Contacts</a>
         </div>
     </div>
 
-    <div class="block" id="home">
+    <div class="block anchor" id="home">
         <div class="home__text">
             <p class="text text__bold home__text__name lng-name">
                 Artyom Gilimovich
@@ -37,7 +37,7 @@
         <img class="avatar" src="./components/avatar.png"/>
     </div>
 
-    <div class="gray-background" id="about-me">
+    <div class="gray-background anchor" id="about-me">
         <div class="block">
             <div class="about-me__text">
                 <h1 class="lng-aboutMe">About me</h1>
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <div class="block" id="scills">
+    <div class="block anchor" id="scills">
         <h1 class="lng-scills">Scills</h1>
         <div class="scills-block">
             <div class="scill">
@@ -82,7 +82,7 @@
     </div>
 
     <div class="gray-background">
-        <div class="block" id="portfolio">
+        <div class="block anchor" id="portfolio">
             <h1 class="lng-portfolio">Portfolio</h1>
             <div class="projects">
                 Здесь будет портфолио
@@ -90,21 +90,22 @@
         </div>
     </div>
 
-    <div class="block" id="contacts">
+    <div class="block anchor" id="contacts">
         <h1 class="lng-contacts">Contacts</h1>
         <p class="lng-contactsContent">
             Want to know more or just chat? 
             You are welcome!
         </p>
         <div class="media">
-            <img src="./components/telegram.png">
-            <img src="./components/linkedin.png">
-            <img src="./components/instagram.png">
-            <img src="./components/github.png">
+            <a href="https://t.me/Gi_Artik"><img alt="Telegram" src="./components/telegram.png"></a>
+            <a href="https://www.linkedin.com/in/artyom-gilimovich/"><img alt="LinkedIn" src="./components/linkedin.png"></a>
+            <a href="https://www.instagram.com/gi_artik/"><img alt="Instagram" src="./components/instagram.png"></a>
+            <a href="https://github.com/Artyomkin141z"><img alt="github" src="./components/github.png"></a>
         </div>
     </div>
 
     <script src="./scripts/lngTranslate.js"></script>
+    <script src="./scripts/scrollScreen.js"></script> 
     <script src="./scripts/language.js"></script>  
 </body>
 

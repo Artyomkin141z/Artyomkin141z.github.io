@@ -55,6 +55,7 @@ body{
 
 .text__active{
     transform: scale(1.2);
+    text-shadow: 3px 3px 5px #828282ce;
 }
 
 .text__bold{
@@ -62,13 +63,9 @@ body{
     color: black; 
 }
 
-.text__shadow{
-    text-shadow: 3px 3px 5px #828282ce;
-}
-
 #home{
-    margin-bottom: 50px;
-    margin-top: 135px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .home__text{
@@ -115,13 +112,8 @@ body{
     transition: 0.5s;
     cursor: pointer;
 }
-/* .switch:hover{
-    text-shadow: 3px 3px 5px #8282829f;
-
-} */
 .switch:active{
     color: #33d951;
-    /* transform: scale(1.1); */
 }
 
 .avatar{
@@ -136,7 +128,7 @@ body{
     width: 485px;
     text-align: center;
     margin: 0 auto;
-    padding: 50px 0;
+    /* padding: 50px 0; */
     font-size: 18px;
 }
 
@@ -168,8 +160,8 @@ h1{
     font-size: 15px;
 }
 
-#portfolio, #contacts, #scills{
-    padding: 50px 0;
+#portfolio, #contacts, #scills, .about-me__text{
+    padding: 100px 0;
     text-align: center;
 }
 
