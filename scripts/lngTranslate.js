@@ -28,11 +28,11 @@ const language = {
         "eng":"Front-end developer<br>19 years old, Minsk"
     },
     "aboutMeContent":{
-        "ru":"Привет, я Артем и тд",
-        "eng":"Hi, I'm Denis – UX/UI designer from Minsk.I'm interested in design and everything connected with it.<br><br>I'm studying at courses \"Web and mobile design interfaces\" in IT-Academy.<br><br>Ready to implement excellent projectswith wonderful people."
+        "ru":"Привет, я Артем – начинающий разработчик. Сейчас учусь в Полоцком Государственном Университете.<br><br> Решил заняться фронтом. Изучаю различные технологии в соответсвующем направлении.<br><br> Читаю документацию по реакту и js. Стараюсь следовать по пути джедая с использованием ООП и принципам SOLID.",
+        "eng":"Hello, I'm Artem - a novice developer. Now I study at the Polotsk State University.<br><br> I decided to take up the front. I study various technologies in the appropriate direction.<br><br> I read documentation on react and js. I try to follow the path of the Jedi using OOP and the principles of SOLID."
     },
     "contactsContent":{
-        "ru":"Хочешь знать большк или просто пообщаться? Не стесняйтесь!",
+        "ru":"Хочешь знать большt или просто пообщаться? Не стесняйcz!",
         "eng":"Want to know more or just chat? You are welcome!"
     }
 }
